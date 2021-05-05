@@ -1,0 +1,8 @@
+[Unit]
+Description=Todo Service
+[Service]
+Environment=REDIS_HOST=172.31.29.43
+ExecStart=/bin/node /root/todo/server.js
+SyslogIdentifier=todo
+[Install]
+WantedBy=multi-user.target
