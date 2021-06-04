@@ -1,5 +1,5 @@
 @Library('todo') _
-todoshop (
+todo (
         COMPONENT             : 'todo',
         PROJECT_NAME          : "todo",
         SLAVE_LABEL           : "NODEJS",
