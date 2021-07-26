@@ -2,7 +2,7 @@
 Description=Todo Service
 [Service]
 Environment=REDIS_HOST=redis-endpoint
-ExecStart=/bin/node /root/shell-scripting/todo/todo/server.js
+ExecStart=/bin/node /home/ubuntu/todo/server.js
 SyslogIdentifier=todo
 Restart=on-failure
 [Install]
