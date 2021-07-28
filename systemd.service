@@ -1,8 +1,8 @@
 [Unit]
 Description=Todo Service
 [Service]
-Environment=REDIS_HOST=172.31.19.53
-ExecStart=/bin/node /root/shell-scripting/todo/todo/server.js
+Environment=REDIS_HOST=redis-endpoint
+ExecStart=/bin/node /home/ubuntu/todo/server.js
 SyslogIdentifier=todo
 Restart=on-failure
 [Install]
